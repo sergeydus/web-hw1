@@ -1,35 +1,57 @@
 <html>
+
 <head>
 
 </head>
-    <body bgcolor="#B9AEC8"><!--background color-->
 
-            <script type="text/javascript">
-                var NumOfClicks = 0;//A variable that counts the number of clicks
+<body bgcolor="#B9AEC8">
+    <!-- your code is almost as bad as roman's code!, center doesnt exit in html5! -->
+    <!--background color-->
+    <a href="roman.html" style="position: fixed; right:0% ;top: 50%;background: cadetblue;margin: 0;padding: 0;">
+        <img src="rightarrow.png" style="width: 150px" />
+    </a>
+    <a href="alex1.html" style="position: fixed; left:0% ;top: 50%;background: cadetblue;margin: 0;padding: 0;">
+        <img src="leftarrow.png" style="width: 150px" />
+    </a>
+    <script type="text/javascript">
+        var NumOfClicks = 0; //A variable that counts the number of clicks
 
-                /* This function count how many clicks were made */
-                function onClick() {
-                    NumOfClicks += 1;
-                    document.getElementById("NumOfClicks").innerHTML = NumOfClicks;
-                }
-            </script>
+        /* This function count how many clicks were made */
+        function onClick() {
+            NumOfClicks += 1;
+            document.getElementById("NumOfClicks").innerHTML = NumOfClicks;
+        }
+    </script>
+
+    <center>
+        <img src="Gal_Gadot.jpg" alt="Gal_Gadot" width="350" height="350" border="5">
+        <!--The Image-->
 
         <center>
-            <img src="Gal_Gadot.jpg" alt="Gal_Gadot" width="350" height="350" border="5"><!--The Image-->
-
-            <center><h1><i>Gal Gadot</i></h1></center><!--Title-->
-            <h2><i>Details:</i></h2><!--Details about Gal Gadot-->
-            <b><p>Moblie: (650)555-1234)</p></b>
-            <b><p>Work: (323)555-6789)</p></b>
-            <b><p>Email: GalGadot@gmail.com</p></b>
-            <p><b>Facebook:</b> <a href="https://www.facebook.com/GalGadot/">https://www.facebook.com/GalGadot/</a>.</p>
-            <p><b>Twitter:</b> <a href="https://twitter.com/galgadot">https://twitter.com/galgadot</a>.</p>
-            
-
-            <p><button type="button" onClick="onClick()">Click Me!</button></p><!--run onClick function-->
-            <p>Votes: <a id="NumOfClicks">0</a></p>
+            <h1><i>Gal Gadot</i></h1>
         </center>
-        
-        
-    </body>
+        <!--Title-->
+        <h2><i>Details:</i></h2>
+        <!--Details about Gal Gadot-->
+        <b>
+            <p>Mobliez: (650)555-1234)</p>
+        </b>
+        <b>
+            <p>Work: (323)555-6789)</p>
+        </b>
+        <b>
+            <p>Email: GalGadot@gmail.com</p>
+        </b>
+        <p><b>Facebook:</b> <a href="https://www.facebook.com/GalGadot/">https://www.facebook.com/GalGadot/</a>.</p>
+        <p><b>Twitter:</b> <a href="https://twitter.com/galgadot">https://twitter.com/galgadot</a>.</p>
+
+
+        <p><button type="button" onClick="onClick()">Click Me!</button></p>
+        <!--run onClick function-->
+        <p>Votes: <a id="NumOfClicks">0</a></p>
+    </center>
+
+
+</body>
+
 </html>
